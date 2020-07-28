@@ -1,0 +1,16 @@
+.container{
+    margin: 0 200px;
+    width: 100%;
+}
+.activeCases{
+    border-top: 10px rgb(32, 2, 226) solid;
+    margin: 10px 10px !important;
+}
+.confirmDeaths{
+    border-top: 10px rgb(180, 4, 4) solid;
+    margin: 10px 10px !important;
+}
+.recovered{
+    border-top: 10px solid rgb(3, 224, 3);
+    margin: 10px 10px !important;
+}

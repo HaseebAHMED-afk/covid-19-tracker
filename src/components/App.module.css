@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(-45deg, #001149, #0499fc);
+	background-size: 400% 400%;
+}
+
+
+.container{
+    justify-content: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.heading{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+.image{
+	margin-top: 60px;
+	width: 50%
+}
+
+@media (max-width: 770px){
+	.container{ margin: 0 10%;}
+	.image{
+		width: 100%;
+	}
+}
