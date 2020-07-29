@@ -41,7 +41,7 @@ const Charts = ({data:{confirmed,deaths,recovered} ,country}) => {
         ? (
             <Bar 
                 data={{
-                    labels: ['Confirmed','Recovered','Deaths'],
+                    labels: ['Confirmed','Deaths','Recovered'],
                     datasets: [{
                         label: 'People',
                         backgroundColor:[
@@ -49,7 +49,7 @@ const Charts = ({data:{confirmed,deaths,recovered} ,country}) => {
                             'rgb(180, 4, 4)',
                             'rgb(3, 224, 3)',
                         ],
-                        data:[confirmed.value, recovered.value, deaths.value]
+                        data:[confirmed.value, deaths.value, recovered.value]
                     }]
                 }}
                 options={{
